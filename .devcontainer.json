@@ -1,0 +1,9 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"init": true,
+	"privileged": true,
+	"runArgs": [
+		"-v", "/lib/modules:/lib/modules",
+		"-v", "/dev:/dev"
+	]
+}
